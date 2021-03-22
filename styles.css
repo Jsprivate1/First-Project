@@ -1,0 +1,131 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+  }
+  .logo p{
+    text-align: center;
+    margin:0px;
+    padding:20px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+
+  .menu-up ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(72, 211, 17);
+  }
+
+  .menu-up li{
+    float: left;
+    border-right: 1px solid white; /*biała granica na pasku*/
+  }
+ .menu-up li a {
+  text-align: center;
+  display: block;
+  color:white;
+  padding: 14px 16px;
+  text-decoration: none;   /*usuwa podkreślenie z hiperłączy*/
+  
+}
+
+.menu-up li a:hover{                /*podświetlenie po najechaniu*/
+  background-color: green;
+}
+.menu-up input{
+  
+  margin-right: 1px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding:3px
+  
+  
+}
+.menu-up button{
+  display: block;
+  margin-top:10px;
+  margin-right:10px;
+  padding:2px;
+  border-radius: 1px;
+  
+}
+
+.menu-up li:last-child{  
+  float:right;
+  border-right: none;
+  
+  
+}
+
+.menu-up li:nth-child(6){
+  float:right;
+  
+}
+
+.menu-down ul{
+  list-style-type: none; /*usuwa kropki z listy*/
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:darksalmon;
+}
+
+.menu-down li{
+  float: left;
+  border-right: 1px solid white; /*biała granica na pasku*/
+}
+
+.menu-down li a:hover{                /*podświetlenie po najechaniu*/
+  background-color: rgb(243, 76, 76);
+}
+.menu-down li a {
+text-align: center;
+display: block;
+color:white;
+padding: 14px 16px;
+text-decoration: none;   /*usuwa podkreślenie z hiperłączy*/
+
+}
+/*-------------------------------------------------- PRZYCISKI FOR EACH */
+
+.ListFormat  {
+  
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 80px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.ListFormat li  {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  clear:both;
+  
+ 
+
+}
+
+.ListFormat ul li a  {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  
+}
+.ListFormat ul li{
+  
+  color:red;
+}
+.Hide{
+  display:none
+
+}
