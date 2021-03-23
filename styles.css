@@ -19,11 +19,13 @@ body {
     padding:0;
     overflow: hidden;
     background-color: rgb(72, 211, 17);
+    
   }
 
   .menu-up li{
     float: left;
     border-right: 1px solid white; /*biała granica na pasku*/
+    
   }
  .menu-up li a {
   text-align: center;
@@ -98,7 +100,7 @@ text-decoration: none;   /*usuwa podkreślenie z hiperłączy*/
   position: absolute;
   background-color: #f1f1f1;
   min-width: 80px;
-  overflow: auto;
+  overflow:auto ;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   
